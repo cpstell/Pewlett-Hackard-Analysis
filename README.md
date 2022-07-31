@@ -43,3 +43,14 @@ us tie everything together in a visual format.
 * The above image shows the various departments that were included in the analysis. Some departments
 were impacted more than others.
 
+## Summary
+
+Currently there are 90,398 employees that are eligible to retire in the coming years and 1549 
+candidates that qualify to become members of the mentorship program. Those numbers alone would 
+suggest Pewlett Hackard has a problem. If more employees are allowed to enter the mentorship 
+program and the pace of retirement is spread out evently over the coming years Pewlett Hackard can 
+make this work. Although It will take detailed planing and cooperation with its employees for this 
+transitionary period to be a success.
+
+
+
