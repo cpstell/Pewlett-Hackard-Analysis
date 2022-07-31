@@ -1,5 +1,6 @@
 -- Employee Database Challenge Queries
 -- Retirement_titles query
+-- Start of Deliverable 1
 
 SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
 INTO retirement_titles
@@ -26,5 +27,23 @@ INTO retiring_titles
 FROM unique_titles AS ut
 GROUP BY ut.title
 ORDER BY Count DESC;
+-- End of Deliverable 1
 
-
+--Start of Deliverable 2
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+INTO mentorship_eligibilty
+FROM employees AS e
+INNER JOIN dept_emp AS de
+	ON (e.emp_no = de.emp_no)
+INNER JOIN titles as ti
+	ON (e.emp_no = ti.emp_no)
+WHERE de.to_date = '9999-01-01'
+AND e.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
+ORDER BY e.emp_no;
+--End of Deliverable 2
