@@ -48,9 +48,13 @@ were impacted more than others.
 Currently there are 90,398 employees that are eligible to retire in the coming years and 1549 
 candidates that qualify to become members of the mentorship program. Those numbers alone would 
 suggest Pewlett Hackard has a problem. If more employees are allowed to enter the mentorship 
-program and the pace of retirement is spread out evently over the coming years Pewlett Hackard can 
-make this work. Although It will take detailed planing and cooperation with its employees for this 
-transitionary period to be a success.
+program and the pace of retirement is spread out evenly over the coming years Pewlett Hackard may be able to make this work. 
+
+Two ways to alleviate this issue is to create a query that will list who is retiring each year and 
+from there Pewlett Hackard can plan how many people it needs to have enter the mentorship program 
+to replace those retiring. Also, create a query that shows the title of each employee entering the 
+mentorship program. This will enable the company to fill the retirees' roles quicker and more 
+efficiently.
 
 
 
